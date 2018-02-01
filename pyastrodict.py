@@ -1,9 +1,3 @@
-
-# coding: utf-8
-
-# In[4]:
-
-
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
 import os
@@ -45,4 +39,3 @@ class astrodict:
     def termdetails(self, id):
         call = 'termdetails?id={0}&fmt=json'.format(id)
         return self.getUrl(call)        
-
