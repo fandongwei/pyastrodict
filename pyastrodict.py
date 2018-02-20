@@ -6,7 +6,6 @@ import urllib.parse
 import json
 
 class astrodict:
-    __isdev=False
     def __init__(self,isdev=False):
         self.__isdev=isdev
         
